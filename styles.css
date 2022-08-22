@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body
+{
+    overflow: hidden;
+    
+}
+.inicio
+{
+    width: 100%;
+    height: 100%;
+}
+.fondo img
+{
+    width: 100vw;
+    height: 100vh;
+}
+.navbar
+{
+
+    background-color:rgb(255, 255, 255, 0.7);
+    display: flex;
+    position: absolute;
+    top:0;
+    width: 100%;
+    justify-content:center ;
+    align-items: center;
+    font-weight: bolder;
+    
+    
+}
+.navbar a
+{
+    text-decoration: none;
+    color: #43523A;
+    justify-self: center;
+    padding: 0 1.5vw;
+    font-family: 'Lora', serif;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+.navbar img
+{
+    padding: 0 3%;
+    
+    
+}
+.mid
+{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-right:3px solid #43523A;
+    border-left:3px solid #43523A;
+}
+
+.buscador
+{
+    width: 100%;
+    height: 15%;
+    background-color: transparent;
+    position: absolute;
+    justify-content:center ;
+    align-items: center;
+    top: 70%;
+    
+    
+}
+.buscador-1
+{
+    background-color: #9bc7aeb7;
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding: 1%;
+
+}
+.com-alq
+{
+    padding: 2% 0;
+    display: flex;
+       
+}
+.com-alq a
+{
+    padding:0 5%;
+    text-decoration: none; 
+    font-weight: bolder;  
+}
+
+.mid-1 
+{
+    
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-right:3px solid #ffffff;
+    color: #43523A;
+}
+.mid-2
+{
+    color: #ffffff;
+}
+.buscador-2
+{
+    display: flex;
+    padding: 0 4%;
+    justify-content: space-between;
+    height: 40%;
+} 
+.field
+{
+    border-radius: 10px;
+    height: auto;
+    width: 43%;
+    border: none;
+
+}
+.btn
+{
+    border-radius: 10px;
+    height: auto;
+    width: 10%;
+    text-align-last: center;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #43523A;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Comprar/Vender*/
+
+.compra-alquiler
+{
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+}
+.text1
+{
+    padding: 10% 0;
+    text-align: center;
+    margin: 0 10%;
+}
+.text1 h1
+{
+    color: #669374;
+    padding-bottom: 3%;
+}
+.text1 p
+{
+    color: #43523A;
+}
+.text2
+{
+    display: flex;
+    text-align: center;
+    
+}
+.text2-1
+{
+    width: 50%;
+    background-color: #669374;
+    padding: 5% 5%;
+}
+.text2-1 h1
+{
+    color: #EFF6F2;
+    padding-bottom: 3%;
+}
+.text2-1 p
+{
+    color: #9BC7AE;
+    padding-bottom: 3%;
+}
+.btn-1
+{
+    background-color: #EFF6F2;
+    color: #43523A;
+    font-weight: bold;
+    width: 15%;
+    height: 25%;
+}
+.text2-2
+{
+    width: 50%;
+    background-color: #EFF6F2;
+    padding: 5% 5%;
+}
+.text2-2 h1
+{
+    color: #669374;
+    padding-bottom: 3%;
+}
+.text2-2 p
+{
+    color: #43523A;
+    padding-bottom: 3%;
+}
+.btn-2
+{
+    background-color: #669374;
+    color: #EFF6F2;
+    font-weight: bold;
+    width: 15%;
+    height: 25%;
+}
+
+
+/* EXPLORA NUESTRAS CASAS*/
+
+.explorar
+{
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+.text3
+{
+    text-align: center;
+    padding: 10% 0; 
+}
+.text3 h1
+{
+    color: #43523A;
+}
+.text3 p
+{
+    color: #669374;
+}
+.slider
+{
+    width: 100%;
+}
+.slider-cont
+{
+    width: 20%;
+    background-color: #EFF6F2;
+    border-radius: 30px;
+    margin: 30px;
+}
+.slider-img
+{
+    width: 100%;
+    height: 50%;
+}
+.slider-img img
+{
+    width: 100%;
+    height: 100%;
+}
+.slider-text
+{
+    padding: 5% 10%;
+}
+.slider-text h1
+{
+    padding-bottom: 5%;
+    font-size: 1.2rem;
+}
+.slider-text p
+{
+    padding-bottom: 15%;
+}
+.slider-logo
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+    text-align: center;
+    padding-bottom: 5%;
+}
+/* EXPERIENCIAS*/
+.experiencias
+{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #669374;
+    padding: 1% 0;
+    width: 100%;
+}
+.text4
+{
+    padding-bottom: 1%;
+    text-align: center;
+}
+.text4 h1
+{
+    color: #EFF6F2;
+}
+.text4 p
+{
+    color: #9BC7AE;
+}
+.cuadro
+{
+    width: 80%;
+    background-color: #EFF6F2;
+    justify-self: center;
+    margin: auto;
+    text-align: center;
+    padding: 1%;
+    vertical-align: middle;
+    display: flex;
+}
+.slider-2
+{
+    display: flex;
+}   
+.slider-2 p
+{
+    padding-bottom: 2%;
+}  
+.slider-2 img
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+}
+.somos-1
+{
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+}
+.somos-2
+{
+    display: flex;
+}
+.que-hacemos
+{
+    background-color: #EFF6F2;
+}
+.como-hacemos
+{
+    background-color: #669374;
+    text-align: right;
+}.c1
+{
+    text-align: right;
+}
+/* Formulario*/
+.form
+{
+    padding: 5% 0;
+    width: 100%;
+}
+
+.formulario
+{
+    width: 40%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #9BC7AE;  
+    border-radius: 10px;
+    padding: 2% 2%;
+    margin: auto;
+}
+.sep
+{
+    display: flex;
+    justify-content: space-between;
+}
+.sep1 p
+{
+    color: #43523A;
+    padding-bottom: 10px;
+
+}
+.sep1
+{
+    padding-bottom: 10px;
+    width: 48%;
+}
+.field-1
+{
+    width:100% ;
+    height: 4vh;
+    border-radius: 5px;
+    border: none;
+}
+.field-1-1
+{
+    width:100% ;
+    height: 20vh;
+    border: none;
+}
+.footer
+{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #43523A;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    color: #EFF6F2;
+    padding-top: 1%;
+}
+.logotypes img
+{
+    padding: 0 0.8%;
+    padding-top: 0.5%;
+}
+
+
+@media(max-width: 950px){
+    .fondo
+    {
+        display: none;
+
+    }
+    .navbar
+    {
+        position: relative; 
+    }
+    .buscador
+    {
+        position: relative; 
+    }
+    .text2-1 h1 {
+        font-size: 1rem;
+    }
+    .text2-1 p {
+        font-size: 0.8rem;
+    }
+    .text2-2 h1 {
+        font-size: 1rem;
+    }
+    .text2-2 p {
+        font-size: 0.8rem;
+    }
+    .formulario {
+        width: 100%;
+    }
+    .navbar img {
+        padding: 0 1%;
+        width: 25%;
+    }
+    .opc
+    {
+        font-size: 0.3rem;
+    }
+    .navbar a {
+        padding: 0;
+        font-size: 0.5rem;
+    }
+    .mid {
+        border-left: none;
+        border-right: none;
+        padding: 0 3%;
+    }
+    .buscador-1 {
+        width: 100%;
+
+    }
+    .btn {
+        width: 20%;
+    }
+    .field {
+        width: 38%;
+    }
+    .btn-1 {
+        width: 40%;
+        height: 15%;
+    }
+    .btn-2 {
+        width: 40%;
+        height: 15%;
+    }
+}
